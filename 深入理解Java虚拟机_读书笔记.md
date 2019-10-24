@@ -485,3 +485,4 @@
 * 编译器必须确保无论方法通过何种方式完成，方法中调用的每条monitorenter指令都必须执行对应的monitorexit指令，无论这个方法是正常结束还是异常结束。
 * 为了保证在方法异常完成时monitorenter和monitorexit指令依然可以正确配对执行，编译器会自动产生一个异常处理器，这个异常处理器声明可处理的所有异常，它的目的就是用来执行monitorexit指令。
 
+![](C:\java\java_soft\git_book\bookList\image\同步代码解析.png)
